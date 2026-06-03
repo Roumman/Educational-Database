@@ -62,11 +62,12 @@
 
 1. Клонируйте репозиторий:
 ```bash
-git clone https://github.com/Roumman/Graduation-project
+git clone https://github.com/Roumman/Educational-Database
 ```
 2. Создайте и заполните базу данных:
 ```bash
-python scripts/populate_db.py
+db_initializer.py      # Инициализация Bank_DB.db
+setup_trainer_db.py    # Инициализация Trainer_DB.db
 ```
 ## Использование
 
